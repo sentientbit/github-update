@@ -24,7 +24,7 @@ if (!defined('ABSPATH')) {
 /**
  * Plugin constants
  */
-if (!defined('GPU_VERSION')) define('GPU_VERSION', '1.0.0');
+if (!defined('GPU_VERSION')) define('GPU_VERSION', '1.0.1');
 if (!defined('GPU_DATABASE_VERSION')) define('GPU_DATABASE_VERSION', '1.0.0');
 
 define('GPU_FOLDER', 'essential-settings-and-tools');
