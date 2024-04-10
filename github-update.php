@@ -4,7 +4,7 @@
  * Plugin Name: Github plugin update
  * Plugin URI: https://sentientbit.com/plugins/
  * Description:  Plugin update from github
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Sentient Bit
  * Author URI: https://sentientbit.com
  * Text Domain: GPU
