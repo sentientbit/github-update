@@ -27,18 +27,18 @@ if (!defined('ABSPATH')) {
 if (!defined('GPU_VERSION')) define('GPU_VERSION', '1.0.1');
 if (!defined('GPU_DATABASE_VERSION')) define('GPU_DATABASE_VERSION', '1.0.0');
 
-define('GPU_FOLDER', 'essential-settings-and-tools');
+define('GPU_FOLDER', 'github-update');
 define('GPU_URL', trailingslashit(plugin_dir_url(__FILE__)));
 define('GPU_DIR', plugin_dir_path(__FILE__));
 define('GPU_BASENAME', plugin_basename(__FILE__));
 
 if (is_admin()) {
     define('GH_REQUEST_URI', 'https://api.github.com/repos/%s/%s/releases');
-    define('GHPU_USERNAME', 'YOUR_GITHUB_USERNAME');
-    define('GHPU_REPOSITORY', 'YOUR_GITHUB_REPOSITORY_NAME');
-    define('GHPU_AUTH_TOKEN', 'YOUR_GITHUB_ACCESS_TOKEN');
+    define('GHPU_USERNAME', 'sentientbit');
+    define('GHPU_REPOSITORY', 'github-update');
+    define('GHPU_AUTH_TOKEN', '');
 
-    include_once plugin_dir_path(__FILE__) . '/GhPluginUpdater.php';
+    include_once GPU_DIR . 'GhPluginUpdater.php';
 
     $updater = new GhPluginUpdater(__FILE__);
     $updater->init();
