@@ -2,7 +2,7 @@
 
 /*
  * Plugin Name: Github plugin update
- * Plugin URI: https://sentientbit.com/plugins/
+ * Plugin URI: https://sentientbit.com/plugins/esat
  * Description:  Plugin update from github
  * Version: 1.0.1
  * Author: Sentient Bit
